@@ -8,7 +8,7 @@ gulp.task('scripts', function() {
   	var src = watch('./scripts/*.js', function(){
   		gulp.src(
 	  	[
-	  		'./scripts/object.js',
+	  		'./scripts/collidingObject.js',
 	  		'./scripts/canvas.js',
 	  		'./scripts/player.js',
 	  		'./scripts/index.js'
